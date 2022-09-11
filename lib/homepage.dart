@@ -17,18 +17,18 @@ class _HomePageState extends State<HomePage> {
           centerTitle: true,
           bottom: TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.flashlight_on_outlined)),
+              Tab(icon: Icon(Icons.compass_calibration)),
+              Tab(icon: Icon(Icons.timelapse_rounded)),
             ],
           ),
           title: Text('Mobile Tools'),
         ),
         body: TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
-            Icon(Icons.directions_transit, size: 350),
-            Icon(Icons.directions_car, size: 350),
+            Icon(Icons.flashlight_on_outlined, size: 350),
+            Icon(Icons.compass_calibration, size: 350),
+            Icon(Icons.timelapse_rounded, size: 350),
           ],
         ),
       ),
